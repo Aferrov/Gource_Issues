@@ -1,0 +1,13 @@
+# Archivos a ignorar
+t.txt
+*.log
+*_issues.json
+*_issues_commits.json
+
+# IDE
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
