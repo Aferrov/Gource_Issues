@@ -4,8 +4,8 @@ import time
 import sys
 
 # --- CONFIGURACIÓN ---
-REPO_OWNER = "pallets"
-REPO_NAME = "flask"
+REPO_OWNER = "acaudwell"
+REPO_NAME = "Gource"
 
 # Leer token desde archivo t.txt
 def cargar_token():
@@ -67,11 +67,7 @@ def get_issues(repo_owner=REPO_OWNER, repo_name=REPO_NAME):
             print(f"Error: {e}")
             break
             
-        # Control de Límite (Nuevo)
-        if len(issues_raw) >= 100:
-            print("🛑 Límite de 100 issues alcanzado. Deteniendo descarga.")
-            issues_raw = issues_raw[:100] # Asegurar exactitud
-            break
+
 
     # Guardar issues crudos en JSON
     filename = f"{repo_name}_issues.json"

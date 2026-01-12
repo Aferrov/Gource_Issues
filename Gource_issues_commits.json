@@ -221,36 +221,36 @@
             }
         ],
         "affected_files": [
+            "Formula/c/coal.rb",
+            "Formula/c/cpprestsdk.rb",
+            "Formula/e/eigenpy.rb",
+            "Formula/f/folly.rb",
             "Formula/b/boost-build.rb",
-            "Formula/a/augustus.rb",
-            "Formula/e/edencommon.rb",
-            "Formula/b/boost-python3.rb",
+            "Formula/d/dwarfs.rb",
+            "Aliases/boost@1.89",
+            "Formula/b/bastet.rb",
+            "Formula/f/freeling.rb",
+            "Formula/g/gnuradio.rb",
+            "Formula/b/boost-mpi.rb",
             "Formula/g/gearman.rb",
+            "Formula/c/c10t.rb",
+            "Formula/e/edencommon.rb",
             "Formula/f/fastnetmon.rb",
+            "Formula/a/augustus.rb",
+            "Formula/a/avro-cpp.rb",
+            "Formula/f/fbthrift.rb",
+            "Formula/f/fuego.rb",
+            "Formula/c/colmap.rb",
+            "Formula/c/collada-dom.rb",
             "Formula/g/gource.rb",
             "Formula/b/boost-bcp.rb",
-            "Formula/d/dspdfviewer.rb",
-            "Formula/f/folly.rb",
-            "Formula/b/boost-mpi.rb",
-            "Formula/c/collada-dom.rb",
-            "Formula/f/freeling.rb",
-            "Formula/d/dwarfs.rb",
-            "Formula/c/colmap.rb",
-            "Aliases/boost@1.89",
-            "Formula/c/cryfs.rb",
-            "Formula/c/clang-include-graph.rb",
-            "Formula/b/bastet.rb",
-            "Formula/b/boost.rb",
-            "Formula/f/fbthrift.rb",
-            "Formula/a/avro-cpp.rb",
-            "Formula/g/graph-tool.rb",
-            "Formula/f/fuego.rb",
-            "Formula/g/gnuradio.rb",
-            "Formula/c/coal.rb",
-            "Formula/c/c10t.rb",
-            "Formula/e/eigenpy.rb",
             "Formula/a/apngasm.rb",
-            "Formula/c/cpprestsdk.rb"
+            "Formula/g/graph-tool.rb",
+            "Formula/c/clang-include-graph.rb",
+            "Formula/d/dspdfviewer.rb",
+            "Formula/b/boost-python3.rb",
+            "Formula/c/cryfs.rb",
+            "Formula/b/boost.rb"
         ],
         "stats": {
             "total_commits": 30,
@@ -481,8 +481,8 @@
         ],
         "affected_files": [
             "src/gource_settings.h",
-            "data/gource.1",
             "src/formats/git.cpp",
+            "data/gource.1",
             "src/gource_settings.cpp",
             "README.md"
         ],
@@ -1710,8 +1710,8 @@
         ],
         "affected_files": [
             "src/gource.cpp",
-            "src/gource_settings.h",
             "src/gource_settings.cpp",
+            "src/gource_settings.h",
             "src/gource_shell.cpp"
         ],
         "stats": {
@@ -1780,12 +1780,12 @@
             }
         ],
         "affected_files": [
-            "src/gource_settings.h",
-            "data/gource.1",
             "src/gource.cpp",
-            "src/gource_settings.cpp",
+            "src/gource_settings.h",
             "ChangeLog",
-            "README"
+            "README",
+            "data/gource.1",
+            "src/gource_settings.cpp"
         ],
         "stats": {
             "total_commits": 3,
@@ -2267,21 +2267,21 @@
             }
         ],
         "affected_files": [
-            "src/formats/git.h",
-            "src/gource_settings.h",
-            "src/dirnode.h",
-            "src/file.cpp",
-            "data/gource.1",
-            "src/formats/commitlog.h",
-            "src/formats/custom.cpp",
-            "src/file.h",
             "src/gource.cpp",
-            "src/formats/commitlog.cpp",
+            "src/gource_settings.h",
+            "src/formats/commitlog.h",
             "src/formats/git.cpp",
-            "src/gource_settings.cpp",
-            "src/pawn.cpp",
             "src/pawn.h",
-            "src/dirnode.cpp"
+            "src/dirnode.cpp",
+            "src/file.h",
+            "src/formats/commitlog.cpp",
+            "src/formats/custom.cpp",
+            "src/pawn.cpp",
+            "data/gource.1",
+            "src/gource_settings.cpp",
+            "src/formats/git.h",
+            "src/file.cpp",
+            "src/dirnode.h"
         ],
         "stats": {
             "total_commits": 2,
@@ -2652,9 +2652,9 @@
             }
         ],
         "affected_files": [
-            ".github/workflows/gource.yml",
             ".github/workflows/deployment.yml",
-            ".github/workflows/deployment-arm64.yml"
+            ".github/workflows/deployment-arm64.yml",
+            ".github/workflows/gource.yml"
         ],
         "stats": {
             "total_commits": 15,
@@ -3215,10 +3215,10 @@
             }
         ],
         "affected_files": [
-            "README",
             "src/gource.cpp",
             "src/gource_settings.h",
-            "src/gource_settings.cpp"
+            "src/gource_settings.cpp",
+            "README"
         ],
         "stats": {
             "total_commits": 1,
@@ -3296,11 +3296,11 @@
         ],
         "affected_files": [
             "src/gource_settings.h",
-            "src/file.cpp",
+            "ChangeLog",
+            "README",
             "data/gource.1",
             "src/gource_settings.cpp",
-            "ChangeLog",
-            "README"
+            "src/file.cpp"
         ],
         "stats": {
             "total_commits": 1,
@@ -3335,10 +3335,10 @@
             }
         ],
         "affected_files": [
-            "README",
             "src/gource.cpp",
             "src/gource_settings.h",
-            "src/gource_settings.cpp"
+            "src/gource_settings.cpp",
+            "README"
         ],
         "stats": {
             "total_commits": 1,
@@ -3715,21 +3715,21 @@
             }
         ],
         "affected_files": [
-            "src/formats/git.h",
-            "src/gource_settings.h",
-            "src/dirnode.h",
-            "src/file.cpp",
-            "data/gource.1",
-            "src/formats/commitlog.h",
-            "src/formats/custom.cpp",
-            "src/file.h",
             "src/gource.cpp",
-            "src/formats/commitlog.cpp",
+            "src/gource_settings.h",
+            "src/formats/commitlog.h",
             "src/formats/git.cpp",
-            "src/gource_settings.cpp",
-            "src/pawn.cpp",
             "src/pawn.h",
-            "src/dirnode.cpp"
+            "src/dirnode.cpp",
+            "src/file.h",
+            "src/formats/commitlog.cpp",
+            "src/formats/custom.cpp",
+            "src/pawn.cpp",
+            "data/gource.1",
+            "src/gource_settings.cpp",
+            "src/formats/git.h",
+            "src/file.cpp",
+            "src/dirnode.h"
         ],
         "stats": {
             "total_commits": 2,
@@ -4273,10 +4273,10 @@
             }
         ],
         "affected_files": [
-            "src/formats/hg.cpp",
+            "src/file.h",
             "src/file.cpp",
-            "src/action.cpp",
-            "src/file.h"
+            "src/formats/hg.cpp",
+            "src/action.cpp"
         ],
         "stats": {
             "total_commits": 2,
@@ -4702,13 +4702,13 @@
         ],
         "affected_files": [
             "src/main.cpp",
-            "src/gource.h",
+            "src/file_colours.h",
+            "src/formats/commitlog.cpp",
+            "gource.pro",
+            "src/file_colours.cpp",
             "src/file.cpp",
             "Makefile.am",
-            "src/file_colours.h",
-            "gource.pro",
-            "src/formats/commitlog.cpp",
-            "src/file_colours.cpp"
+            "src/gource.h"
         ],
         "stats": {
             "total_commits": 10,
@@ -4922,13 +4922,13 @@
             }
         ],
         "affected_files": [
-            "src/gource_settings.h",
-            "src/gource.h",
-            "data/gource.1",
             "src/gource.cpp",
+            "src/gource_settings.h",
             "ChangeLog",
+            "README",
+            "data/gource.1",
             "src/gource_settings.cpp",
-            "README"
+            "src/gource.h"
         ],
         "stats": {
             "total_commits": 4,
@@ -4990,21 +4990,21 @@
             }
         ],
         "affected_files": [
-            "src/formats/git.h",
-            "src/gource_settings.h",
-            "src/dirnode.h",
-            "src/file.cpp",
-            "data/gource.1",
-            "src/formats/commitlog.h",
-            "src/formats/custom.cpp",
-            "src/file.h",
             "src/gource.cpp",
-            "src/formats/commitlog.cpp",
+            "src/gource_settings.h",
+            "src/formats/commitlog.h",
             "src/formats/git.cpp",
-            "src/gource_settings.cpp",
-            "src/pawn.cpp",
             "src/pawn.h",
-            "src/dirnode.cpp"
+            "src/dirnode.cpp",
+            "src/file.h",
+            "src/formats/commitlog.cpp",
+            "src/formats/custom.cpp",
+            "src/pawn.cpp",
+            "data/gource.1",
+            "src/gource_settings.cpp",
+            "src/formats/git.h",
+            "src/file.cpp",
+            "src/dirnode.h"
         ],
         "stats": {
             "total_commits": 2,
@@ -5443,11 +5443,11 @@
         ],
         "affected_files": [
             "src/action_sound.cpp",
-            "src/action.cpp",
             "configure.ac",
+            "src/action.cpp",
+            "src/csound.csd",
             "src/action_sound.h",
-            "src/action.h",
-            "src/csound.csd"
+            "src/action.h"
         ],
         "stats": {
             "total_commits": 3,
@@ -5775,21 +5775,21 @@
             }
         ],
         "affected_files": [
-            "src/formats/git.h",
-            "src/gource_settings.h",
-            "src/dirnode.h",
-            "src/file.cpp",
-            "data/gource.1",
-            "src/formats/commitlog.h",
-            "src/formats/custom.cpp",
-            "src/file.h",
             "src/gource.cpp",
-            "src/formats/commitlog.cpp",
+            "src/gource_settings.h",
+            "src/formats/commitlog.h",
             "src/formats/git.cpp",
-            "src/gource_settings.cpp",
-            "src/pawn.cpp",
             "src/pawn.h",
-            "src/dirnode.cpp"
+            "src/dirnode.cpp",
+            "src/file.h",
+            "src/formats/commitlog.cpp",
+            "src/formats/custom.cpp",
+            "src/pawn.cpp",
+            "data/gource.1",
+            "src/gource_settings.cpp",
+            "src/formats/git.h",
+            "src/file.cpp",
+            "src/dirnode.h"
         ],
         "stats": {
             "total_commits": 2,
@@ -5980,10 +5980,10 @@
             }
         ],
         "affected_files": [
-            "src/formats/commitlog.cpp",
+            "src/gource_settings.h",
             "src/gource_settings.cpp",
-            "tests/test.conf",
-            "src/gource_settings.h"
+            "src/formats/commitlog.cpp",
+            "tests/test.conf"
         ],
         "stats": {
             "total_commits": 4,
@@ -6307,11 +6307,11 @@
         ],
         "affected_files": [
             "src/gource_settings.h",
-            "src/spline.h",
+            "src/dirnode.cpp",
+            "README",
             "src/spline.cpp",
             "src/gource_settings.cpp",
-            "README",
-            "src/dirnode.cpp"
+            "src/spline.h"
         ],
         "stats": {
             "total_commits": 6,

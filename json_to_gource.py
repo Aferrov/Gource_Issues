@@ -3,7 +3,7 @@ import datetime
 from datetime import timezone
 
 # --- CONFIGURACIÓN ---
-REPO_NAME = "flask"  # Nombre del repositorio
+REPO_NAME = "Gource"  # Nombre del repositorio
 
 # Colores por extensión (evitando rojos para no confundir con issues)
 EXTENSION_COLORS = {
